@@ -1,0 +1,161 @@
+body {
+     background-color: rgba(3, 3, 197, 0.5);
+     margin: 5px;
+     padding: 5px 30px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+
+header h1 {
+     font-size: 40px;
+     margin-bottom: 1px;
+     text-align: center;
+     color: white;
+}
+
+#description {
+     margin-top: 1px;
+     font-size: 23px;
+     font-weight: 100;
+     font-style: oblique;
+     text-align: center;
+
+     color: white;
+}
+
+#container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     width: auto;
+     height: 90%;
+     margin: 0px;
+}
+
+@media (min-width: 500px) {
+     form {
+          padding: 40px;
+     }
+}
+
+#survey-form {
+     width: 500px;
+     height: 100%;
+     background-color: rgba(0, 0, 149, 0.7);
+     border: 0px solid rgba(0, 0, 149, 0.7);
+     border-radius: 5px;
+     color: white;
+     font-size: 20px;
+     margin: auto 20px;
+}
+
+.form-label {
+     display: block;
+     max-width: 480px;
+}
+
+#dropdown {
+     width: 100%;
+     margin: 10px 0px;
+     height: 40px;
+     margin-bottom: 20px;
+     border: 0px solid white;
+     border-radius: 2px;
+}
+
+select {
+     color: grey;
+     font-size: 15px;
+}
+
+[value="disabled"] {
+     color: darkslategrey;
+}
+
+option {
+     color: grey;
+     font-size: 15px;
+     padding: 5px 5px;
+}
+
+#name,
+#email,
+#number {
+     font-size: 15px;
+     display: block;
+     width: 100%;
+     height: 35px;
+     padding-left: 5px;
+     margin: 10px 0px;
+     margin-bottom: 20px;
+     max-width: 480px;
+     border: 0px solid white;
+     border-radius: 2px;
+}
+
+label {
+     margin: 1px auto;
+}
+
+.form-label p {
+     margin-bottom: 10px;
+     margin-top: 10px;
+}
+
+#radio>label {
+     display: block;
+     margin: 5px;
+}
+
+#checkbox>label {
+     display: block;
+     margin: 5px;
+}
+
+#radio,
+#checkbox {
+     margin-bottom: 30px;
+}
+
+textarea {
+     color: darkslategray;
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 10px 5px;
+     font-weight: 100;
+     max-width: 480px;
+     height: 100px;
+}
+
+#submit {
+     max-width: 480px;
+     width: 100%;
+     height: 45px;
+     background-color: green;
+     border: 0 solid green;
+     border-radius: 5px;
+     margin-top: 30px;
+     font-size: 15px;
+
+     color: aliceblue;
+}
+
+.italic {
+     font-size: 15px;
+     font-weight: 100;
+     font-style: italic;
+     font-variant: normal;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+     margin-right: 10px;
+}
